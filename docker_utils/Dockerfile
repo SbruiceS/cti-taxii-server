@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:3.14.2-alpine3.23
 
 COPY . /opt/taxii
 WORKDIR /opt/taxii
